@@ -1,4 +1,4 @@
-# serverless.yml
+# serverless.yml1
 
 #组件信息
 component: scf # (必选) 组件名称，在该实例中为scf
