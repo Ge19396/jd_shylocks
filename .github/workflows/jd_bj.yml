@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: ZhiYi-N/jd_scripts
+          repository: shylocks/loon
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -39,7 +39,7 @@ jobs:
         run: |
           node jd_bj.js
         env:
-          JD_COOKIE: ${{ secrets.JD_COOKIE }}
+          COOKIE: ${{ secrets.COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
