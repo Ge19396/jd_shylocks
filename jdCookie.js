@@ -4,8 +4,8 @@
 //此处填写京东账号cookie。
 //注：github action用户cookie填写到Settings-Secrets里面，新增JD_COOKIE，多个账号的cookie使用`&`隔开或者换行
 let CookieJDs = [
-  'pt_key=AAJf8lI4ADB2eI_W824bbuhVq1frPjEWrjgsnpt8L3kyt64Kj3J-B6mBd60FPSeT7ALodEyuzCU;pt_pin=1045884017-799294',//账号一ck,例:pt_key=XXX;pt_pin=XXX;
-  '',//账号二ck,例:pt_key=XXX;pt_pin=XXX;如有更多,依次类推
+  'pt_key=AAJgAaVFADDcY2GEExdqDZXJHRX8gAg0LT5TRTE-ZaAsgmE3tnYn89FbLzyDiYLLLRmcaE2Lo_0;pt_pin=Arthur_Kuo',//账号一ck,例:pt_key=XXX;pt_pin=XXX;
+  'pt_key=AAJgAYnPADABTq6BmdatvhaCNUssyjd52pz0iE_Sg88HIL4WerZrrTfl65ss7DZowAWNP9SlSsI;pt_pin=jd_pFxmYpNrqRMd',//账号二ck,例:pt_key=XXX;pt_pin=XXX;如有更多,依次类推
 ]
 // 判断github action里面是否有京东ck
 if (process.env.JD_COOKIE) {
